@@ -72,6 +72,7 @@
             },
             {
                 "colorScheme": "Tango Dark",
+                "commandline": "wsl bash -c \"sshpass -p 'YOURPASSWORD' ssh -o 'StrictHostKeyChecking=no' root@YOURIPADDRESS\"",
                 "cursorShape": "bar",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\digital_ocean.png",
@@ -88,6 +89,7 @@
             },
             {
                 "colorScheme": "Tango Dark",
+                "commandline": "wsl bash -c \"sshpass -p 'segfault' ssh -o 'StrictHostKeyChecking=no' -o 'SetEnv SECRET=YOURSECRETKEY' root@lulz.segfault.net\"",
                 "cursorShape": "bar",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\segfault.ico",
