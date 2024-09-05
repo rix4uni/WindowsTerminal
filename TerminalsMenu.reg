@@ -51,7 +51,7 @@ Windows Registry Editor Version 5.00
 "Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\segfault.ico"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\SegfaultVPS\command]
-@=""
+@="wsl bash -c \"sshpass -p 'segfault' ssh -o 'StrictHostKeyChecking=no' -o 'SetEnv SECRET=YOURSECRETKEY' root@lulz.segfault.net\""
 
 
 ; Ubuntu 24.04 LTS
@@ -61,4 +61,3 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\Ubuntu24.04LTS\command]
 @="wsl.exe --cd \"%V\""
-
