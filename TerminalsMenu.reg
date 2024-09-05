@@ -1,0 +1,64 @@
+Windows Registry Editor Version 5.00
+
+; Create the Terminals key
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals]
+"SubCommands"=""
+
+
+; Create the shell subkey under Terminals
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell]
+
+
+; Azure Cloud Shell
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\AzureCloudShell]
+@="Azure Cloud Shell"
+"Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\azure.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\AzureCloudShell\command]
+@=""
+
+
+; GCP Cloud Shell
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\GCPCloudShell]
+@="GCP Cloud Shell"
+"Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\gcp.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\GCPCloudShell\command]
+@="wsl bash -c \"gcloud cloud-shell ssh --authorize-session && sudo -s\""
+
+
+; Digital Ocean
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\DigitalOcean]
+@="Digital Ocean"
+"Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\digital_ocean.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\DigitalOcean\command]
+@=""
+
+
+; Git Bash
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\GitBash]
+@="Git Bash"
+"Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\gitbash.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\GitBash\command]
+@=""
+
+
+; Segfault VPS
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\SegfaultVPS]
+@="Segfault VPS"
+"Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\segfault.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\SegfaultVPS\command]
+@=""
+
+
+; Ubuntu 24.04 LTS
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\Ubuntu24.04LTS]
+@="Ubuntu 24.04 LTS"
+"Icon"="%USERPROFILE%\\\\Downloads\\\\WindowsTerminal\\\\icons\\\\ubuntu.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Terminals\shell\Ubuntu24.04LTS\command]
+@="wsl.exe --cd \"%V\""
+
