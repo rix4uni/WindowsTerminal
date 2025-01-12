@@ -103,7 +103,6 @@
                 "hidden": false,
                 "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\favicon-32x32.png",
                 "backgroundImage": "%USERPROFILE%\\Downloads\\WindowsTerminal\\backgrounds\\ubuntu.png",
-                "backgroundImage": "%USERPROFILE%\\Downloads\\WindowsTerminal\\backgrounds\\ubuntu.png",
                 "name": "Ubuntu 24.04 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
             },
@@ -113,6 +112,12 @@
                 "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\favicon-32x32.png",
                 "backgroundImage": "%USERPROFILE%\\Downloads\\WindowsTerminal\\backgrounds\\ubuntu.png",
                 "name": "Ubuntu-24.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": false,
+                "name": "kali-linux",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
@@ -373,5 +378,6 @@
             "yellow": "#808000"
         }
     ],
-    "themes": []
+    "themes": [],
+    "windowingBehavior": "useAnyExisting"
 }
