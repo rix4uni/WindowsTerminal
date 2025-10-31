@@ -1,5 +1,7 @@
 # WindowsTerminal
 
+Note: Download in `C:\`
+
 #### Save settings.json in your windows terminal's settings.json and you will see like this
 
 ![image](https://github.com/user-attachments/assets/1ff7ea51-634d-49a7-9baa-1620016e3dd9)
