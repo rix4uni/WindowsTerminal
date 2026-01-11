@@ -40,7 +40,10 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "colorScheme": "One Half Dark"
+        },
         "list": 
         [
             {
@@ -62,62 +65,50 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
+                "backgroundImage": null,
                 "colorScheme": "Tango Dark",
                 "commandline": "wsl bash -c \"gcloud cloud-shell ssh --authorize-session\"",
                 "cursorShape": "bar",
+                "guid": "{78870e8a-0a16-558f-ac55-ac750521d2ed}",
                 "hidden": false,
-                "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\gcp.ico",
-                "backgroundImage": "",
+                "icon": "C:\\WindowsTerminal\\icons\\gcp.ico",
                 "name": "GCP Cloud Shell"
             },
             {
+                "backgroundImage": null,
                 "colorScheme": "Tango Dark",
                 "commandline": "wsl bash -c \"sshpass -p 'YOURPASSWORD' ssh -o 'StrictHostKeyChecking=no' root@YOURIPADDRESS\"",
                 "cursorShape": "bar",
+                "guid": "{94ad5b26-9587-5175-bd32-62d5f82f2817}",
                 "hidden": false,
-                "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\digital_ocean.png",
-                "backgroundImage": "",
+                "icon": "C:\\WindowsTerminal\\icons\\digital_ocean.png",
                 "name": "Digital Ocean"
             },
             {
+                "backgroundImage": null,
                 "colorScheme": "Tango Dark",
                 "cursorShape": "bar",
+                "guid": "{d15b228a-05d7-50d1-8472-f60aaba86efc}",
                 "hidden": false,
-                "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\gitbash.png",
-                "backgroundImage": "",
+                "icon": "C:\\WindowsTerminal\\icons\\gitbash.png",
                 "name": "Git Bash"
             },
             {
+                "backgroundImage": null,
                 "colorScheme": "Tango Dark",
                 "commandline": "wsl bash -c \"sshpass -p 'segfault' ssh -o 'StrictHostKeyChecking=no' -o 'SetEnv SECRET=YOURSECRETKEY' root@lulz.segfault.net\"",
                 "cursorShape": "bar",
+                "guid": "{ae24680f-f206-550a-9a28-97dd01b6f402}",
                 "hidden": false,
-                "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\segfault.ico",
-                "backgroundImage": "",
+                "icon": "C:\\WindowsTerminal\\icons\\segfault.ico",
                 "name": "Segfault VPS"
             },
             {
-                "colorScheme": "Tango Dark",
-                "cursorShape": "bar",
-                "guid": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
-                "hidden": false,
-                "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\favicon-32x32.png",
-                "backgroundImage": "%USERPROFILE%\\Downloads\\WindowsTerminal\\backgrounds\\ubuntu.png",
-                "name": "Ubuntu 24.04 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
-            },
-            {
+                "backgroundImage": "C:\\WindowsTerminal\\backgrounds\\ubuntu.png",
                 "guid": "{963ff2f7-6aed-5ce3-9d91-90d99571f53a}",
                 "hidden": true,
-                "icon": "%USERPROFILE%\\Downloads\\WindowsTerminal\\icons\\favicon-32x32.png",
-                "backgroundImage": "%USERPROFILE%\\Downloads\\WindowsTerminal\\backgrounds\\ubuntu.png",
+                "icon": "C:\\WindowsTerminal\\icons\\favicon-32x32.png",
                 "name": "Ubuntu-24.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
-                "hidden": false,
-                "name": "kali-linux",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
